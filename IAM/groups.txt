@@ -1,0 +1,1 @@
+Criando grupos para incluimos usuarios nos grupos, assim cada grupo vai ter suas politicas de acesso no lugar de cada usuario ter o seu.

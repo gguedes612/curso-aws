@@ -1,0 +1,26 @@
+Amazon Simple Storage Service
+
+Documentação https://docs.aws.amazon.com/pt_br/AmazonS3/latest/userguide/Welcome.html
+
+Bucket - Seria como uma pasta onde guardaremos nosso objeto
+
+- Bucket deve conter nome unico/universal(exclusivo)
+- Objetos de 0B até 5TB
+- Durabilidade 99.999999999
+- Disponibilizade 99.99
+
+ACL - Acess List - Lista de acesso para a a bucket(Não pode ser habilitado depois)
+
+Classes de armazenamento
+
+Standard - Mais cara com masi recursos.
+Intelligent-Tiering - Classifica seus objetos e vai movendo para classe que mais se adequar
+Standard-IA - Standard mas eles não são usados com frequencia alta - bom pra backup
+One Zone-IA - IA sendo que em apenas uma zona
+Glacier Instant Retrieval - Dados de longa duração que raramente são acessados e precisam ser recuperados em milisegundos.
+Glacier Flexible Retrieval - Arquivos que são acessadis 1 a 2 vezes por anos e recuperados de form assincrona. - Para dados de arquivo que não requerem acesso imediato
+Glacier Deep Archive - para cumprir requisitos de conformidade regulatória, especialmente em setores altamente regulados como serviços financeiros, saúde e setores públicos.
+Outposts - nome auto explicativo kekw
+
+Versionamento
+Com o versionamento atividado todos os objetos serão versionados, salvando suas modificações anteriores e futuras. (para cada versão voce estara pagando o armazenamento)

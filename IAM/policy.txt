@@ -1,0 +1,1 @@
+Policy password é a politica de senha dos seus usuarios na AWs, podendo fazer que os usuarios criem sejam mais dificies e expiração de senha

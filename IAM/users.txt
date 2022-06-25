@@ -1,0 +1,10 @@
+2 tipos de usuario
+
+1º - AWS Management Console access - O que tem acesso a AWS Console.
+2º - Programmatic access - Consegue via aws cli/aplicativo, necessita de uma access key e secret key.
+
+Acessos para usuarios podem ser concedidos:
+
+- Criar policy unicas para o usuario
+- Adicionar usuario a um grupo
+- Copiar policy de um usuario já existente
