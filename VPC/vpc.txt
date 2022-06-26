@@ -1,0 +1,22 @@
+Virtual Private Cloud
+
+Default VPC vs Custom VPC
+
+Default Já vem atribuido IP Privado/Publico e Acesso a Internet
+
+Custom Devemos Atribuir Subnet, IP Privado/Publico e Rotas
+
+VPC Peering -> Conexão de VPC para VPC (Maximo de 4 Conexões)
+
+No transit entre VPC -> VPC's não podem se conectar indiretamente
+
+ACL -> State full -> regras de permissão e bloqueio
+
+Sec Groups -> State less -> apenas permissão
+
+Internet Gateway -> criar um Gateway para subnets acessarem a Internet
+
+NAT Gateway -> NAT entre uma subnet para ter acesso direto na Internet -> Associar Subnet, Associar IP e Route Table
+
+Flow Log -> Log de rede para os recursos
+
